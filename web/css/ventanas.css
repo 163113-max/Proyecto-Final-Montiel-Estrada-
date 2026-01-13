@@ -1,0 +1,439 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #0a1f44; /* azul marino */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 25px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.logo {
+    height: 150px;  
+   
+}
+
+.header-center a {
+    color: white;
+    margin: 0 12px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header-center a:hover {
+    color: #e63946; /* rojo */
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.icono-usuario {
+    color: white;
+    font-size: 22px;
+    margin-right: 6px;
+}
+
+.usuario {
+    color: white;
+    font-weight: bold;
+}
+
+.usuario {
+    margin-right: 15px;
+}
+
+.logout {
+    background-color: #e63946;
+    color: white;
+    padding: 6px 14px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logout:hover {
+    background-color: #c62828;
+}
+
+.contenido {
+    padding: 20px;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0a1f44;
+    color: white;
+    padding: 12px 25px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    margin-bottom: 40px; /* <-- agrega esto para separar del ticket */
+}
+
+.footer {
+    background-color: #0a1f44;
+    color: white;
+    margin-top: 50px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 60px;
+    flex-wrap: wrap;
+}
+
+.footer-box {
+    width: 22%;
+    min-width: 220px;
+    margin-bottom: 20px;
+}
+
+.footer-box h3 {
+    color: #e63946;
+    margin-bottom: 15px;
+}
+
+.footer-box p,
+.footer-box a {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-box a:hover {
+    color: #e63946;
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    background-color: #081630;
+    text-align: center;
+    padding: 15px;
+    font-size: 13px;
+}
+
+/* Estilo general de la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #0a1f44; /* azul marino */
+    color: white;
+    border-radius: 5px 5px 0 0;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Total destacado */
+tr:last-child td {
+    font-weight: bold;
+    background-color: #eee;
+}
+
+/* Botones */
+input[type="submit"].agregar {
+    background-color: #28a745; /* verde */
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"].agregar:hover {
+    background-color: #218838;
+}
+
+input[type="submit"].eliminar {
+    background-color: #dc3545; /* rojo */
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"].eliminar:hover {
+    background-color: #c82333;
+}
+
+/* Formularios */
+form input[type="text"], form input[type="number"] {
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+
+/* Botón confirmar pedido */
+input[type="submit"].confirmar {
+    background-color: #28a745; /* verde */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"].confirmar:hover {
+    background-color: #218838;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center; /* centra horizontalmente */
+    margin-bottom: 30px;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column; /* apila los inputs y botones verticalmente */
+    align-items: center;    /* centra cada input y botón */
+    gap: 2px;              /* espacio entre cada campo */
+}
+
+.form-container input[type="text"],
+.form-container input[type="number"] {
+    width: 250px; 
+    padding: 4px 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form-container input[type="submit"] {
+    padding: 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Contenedor para centrar el formulario */
+.form-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Inputs del formulario */
+.form-container input[type="text"],
+.form-container input[type="password"],
+.form-container select {
+    width: 250px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Botones del formulario */
+input[type="submit"].agregar {
+    background-color: #28a745; /* verde */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"].agregar:hover {
+    background-color: #218838;
+}
+
+/* Tabla de usuarios */
+table {
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    margin-bottom: 30px;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #0a1f44; /* azul marino */
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Botón eliminar en tabla */
+input[type="submit"].eliminar {
+    background-color: #dc3545; /* rojo */
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"].eliminar:hover {
+    background-color: #c82333;
+}
+
+/* Contenedor centrado */
+.login-container {
+    display: flex;
+    justify-content: center; /* centra horizontalmente */
+    margin-top: 50px;
+}
+
+/* Formulario vertical */
+.login-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centra inputs y botón */
+    gap: 10px; /* espacio entre campos */
+    background-color: #f8f8f8;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    width: 300px;
+}
+
+/* Inputs y select */
+.login-container input[type="text"],
+.login-container input[type="password"],
+.login-container select {
+    width: 100%;
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Botón verde */
+.boton-verde {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+}
+
+.boton-verde:hover {
+    background-color: #218838;
+}
+
+/* Tabla compacta */
+table {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+th, td {
+    padding: 6px 10px; /* menos espacio */
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #0a1f44;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+
+/* ===== FORZAR BOTONES EN LINKS ===== */
+a.btn {
+    display: inline-block !important;
+    padding: 6px 12px !important;
+    border-radius: 5px !important;
+    text-decoration: none !important;
+    font-weight: bold !important;
+    font-size: 13px !important;
+    color: white !important;
+}
+
+/* Ver - gris */
+a.btn-ver {
+    background-color: #6c757d !important;
+}
+
+/* Editar - azul */
+a.btn-editar {
+    background-color: #0d6efd !important;
+}
+
+/* Eliminar - rojo */
+a.btn-eliminar {
+    background-color: #dc3545 !important;
+}
+
+a.btn:hover {
+    opacity: 0.85;
+}
+
+
+.acciones{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.acciones form{
+    margin: 0;
+}
+
+.editar{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.editar:hover{
+    background-color: #0056b3;
+}
