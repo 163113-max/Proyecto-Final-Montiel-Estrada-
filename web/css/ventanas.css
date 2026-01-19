@@ -437,3 +437,60 @@ a.btn:hover {
 .editar:hover{
     background-color: #0056b3;
 }
+
+/* Iniciar sesión en texto blanco */
+.login-btn {
+    color: #ffffff !important;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.login-btn:hover {
+    color: #e0e0e0;
+    text-decoration: underline;
+}
+
+.titulo-sistema {
+    font-size: 32px;
+    font-style: italic;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 8px;
+    display: block;
+    letter-spacing: 1px;
+}
+
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1f2a36;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.2);
+    z-index: 1000;
+}
+
+.bottom-nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-sistema {
+    font-size: 42px;              /* grande */
+    font-style: italic;           /* elegante */
+    font-weight: 800;             /* fuerte */
+    color: #ffffff;
+    margin: 0 0 10px 0;
+    letter-spacing: 2px;
+    text-align: center;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+    font-family: 'Segoe UI', Arial, sans-serif;
+}

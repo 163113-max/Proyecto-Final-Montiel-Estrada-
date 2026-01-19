@@ -11,8 +11,8 @@
 
         <!-- Sistema -->
         <div class="footer-box">
-            <h3>Sistema de Pedidos</h3>
-            <p>Aplicación web para la gestión de pedidos y empleados.</p>
+            <h3>IA para Todos</h3>
+            <p>Aplicación web para el aprendizaje del uso de la IA.</p>
             <p><b>Desarrollado por:</b> Alexis Montiel</p>
             <p>© 2026</p>
         </div>
@@ -25,23 +25,24 @@
             <p>Colonia Doctores, CDMX</p>
         </div>
 
-        <!-- Redes Sociales -->
+             <!-- Catalogo -->
         <div class="footer-box">
-            <h3>Redes Sociales</h3>
-            <a href="#">Facebook</a><br>
-            <a href="#">X (Twitter)</a><br>
-            <a href="#">Instagram</a>
-        </div>
+            <h3>Conoce lo que tenemos para TI</h3>
+        <a href="catalogo.jsp">Catalogo</a>
+  
+    </div>
+       
 
         <!-- Quejas -->
         <div class="footer-box">
             <h3>Quejas y Sugerencias</h3>
             <p>¿Tienes algún comentario?</p>
-            <p>Escríbenos para mejorar el servicio.</p>
-            <a href="#">Enviar sugerencia</a>
+            <a href="mantenimiento.jsp">Escríbenos para mejorar el servicio.</a>
+            
+            
         </div>
-
-    </div>
+        
+           
 
     <div class="footer-bottom">
         Sistema de Pedidos | Todos los derechos reservados
