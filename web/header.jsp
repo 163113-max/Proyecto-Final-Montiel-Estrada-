@@ -20,12 +20,12 @@ String rolHeader = (String) session.getAttribute("rol");
 <div class="header-left">
     <% if ("admin".equals(rolHeader)) { %>
         <a href="${pageContext.request.contextPath}/admin.jsp">
-            <img src="${pageContext.request.contextPath}/img/ame.png"
+            <img src="${pageContext.request.contextPath}/img/ameia.png"
                  class="logo" alt="Logo">
         </a>
     <% } else { %>
         <a href="${pageContext.request.contextPath}/empleado.jsp">
-            <img src="${pageContext.request.contextPath}/img/ame.png"
+            <img src="${pageContext.request.contextPath}/img/ameia.png"
                  class="logo" alt="Logo">
         </a>
     <% } %>

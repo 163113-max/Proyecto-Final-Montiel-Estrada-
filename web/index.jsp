@@ -123,7 +123,7 @@
 
         <!-- IMAGEN DERECHA -->
         <div class="col-lg-6">
-            <img src="img/ame.png"
+            <img src="img/ia.png"
                  alt="Inteligencia Artificial"
                  class="img-fluid rounded w-100"
                  style="max-height: 400px; object-fit: contain;">
