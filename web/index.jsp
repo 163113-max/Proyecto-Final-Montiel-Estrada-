@@ -52,7 +52,7 @@
           <a class="nav-link active" aria-current="page" href="mantenimiento.jsp">Quiénes somos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="mantenimiento.jsp">Articulos</a>
+          <a class="nav-link" href="articulosPublicados.jsp">Articulos</a>
         </li>
        <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle"
@@ -115,7 +115,7 @@
             </p>
 
             <p class="lead mb-0">
-                <a href="articulo1.jsp" class="text-body-emphasis fw-bold">
+                <a href="articulo 1.jsp" class="text-body-emphasis fw-bold">
                     Continuar leyendo…
                 </a>
             </p>

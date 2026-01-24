@@ -26,6 +26,8 @@
        style="background:#007bff;color:white;padding:8px 15px;border-radius:5px;text-decoration:none;margin-right:10px;">Empleados</a>
     <a href="verEmpleados.jsp?tipo=admin" 
        style="background:#28a745;color:white;padding:8px 15px;border-radius:5px;text-decoration:none;">Admins</a>
+        <a href="verEmpleados.jsp?tipo=editor" 
+       style="background:#007bff;color:white;padding:8px 15px;border-radius:5px;text-decoration:none;">Editor</a>
 </div>
 
 <%

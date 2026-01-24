@@ -43,7 +43,8 @@
         Rol:<br>
         <select name="rol" required>
             <option value="admin">Admin</option>
-            <option value="empleado">Empleado</option>
+    <option value="empleado">Empleado</option>
+    <option value="edit">Edi</option>
         </select><br><br>
 
         <input type="submit" value="Agregar Usuario">

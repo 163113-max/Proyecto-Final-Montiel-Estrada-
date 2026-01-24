@@ -15,7 +15,6 @@ String rolHeader = (String) session.getAttribute("rol");
 
 <div class="header">
 
-
 <!-- IZQUIERDA -->
 <div class="header-left">
     <% if ("admin".equals(rolHeader)) { %>
@@ -35,7 +34,6 @@ String rolHeader = (String) session.getAttribute("rol");
 <div class="header-center">
     <h1 class="titulo-sistema">IA para Todos</h1>
 
-
     <% if ("admin".equals(rolHeader)) { %>
         <a href="${pageContext.request.contextPath}/admin.jsp">Inicio</a>
         <a href="${pageContext.request.contextPath}/verEmpleados.jsp">Editar Personal</a>
@@ -43,6 +41,12 @@ String rolHeader = (String) session.getAttribute("rol");
     <% } else if ("empleado".equals(rolHeader)) { %>
         <a href="${pageContext.request.contextPath}/empleado.jsp">Inicio</a>
         <a href="${pageContext.request.contextPath}/verPedidosEmpleado.jsp">Pedidos</a>
+
+    <% } else if ("editor".equals(rolHeader)) { %>
+        <!-- MENÚ NUEVO PARA EDITOR -->
+        <a href="${pageContext.request.contextPath}/editor.jsp">Inicio</a>
+        <a href="${pageContext.request.contextPath}/articulos.jsp">Publicar Artículo</a>
+        <a href="${pageContext.request.contextPath}/misArticulos.jsp">Mis Artículos</a>
     <% } %>
 </div>
 
@@ -64,6 +68,5 @@ String rolHeader = (String) session.getAttribute("rol");
         </a>
     <% } %>
 </div>
-
 
 </div>

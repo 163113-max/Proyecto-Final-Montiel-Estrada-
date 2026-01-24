@@ -85,6 +85,7 @@
         <select name="rol">
             <option value="admin" <%= rolEmpleado.equals("admin")?"selected":"" %>>Admin</option>
             <option value="empleado" <%= rolEmpleado.equals("empleado")?"selected":"" %>>Empleado</option>
+           <option value="editor" <%= rolEmpleado.equals("editor")?"selected":"" %>>Editor</option>
         </select>
 
         <input type="submit" value="Guardar cambios" class="boton-verde">

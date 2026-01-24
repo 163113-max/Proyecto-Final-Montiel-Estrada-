@@ -80,6 +80,7 @@
     <select name="rol" required>
         <option value="admin">Admin</option>
         <option value="empleado">Empleado</option>
+         <option value="editor">Editor</option>
     </select><br><br>
 
    <input type="submit" value="Ingresar" class="boton-verde">
